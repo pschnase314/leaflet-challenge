@@ -1,0 +1,24 @@
+/* zero out padding and margin */
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* set the size of things */
+  #map,
+  body,
+  html {
+    height: 100%;
+  }
+/* format the legend */
+  .legend {
+    line-height: 18px;
+    color: #444;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
